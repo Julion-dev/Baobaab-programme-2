@@ -144,8 +144,131 @@
       </tr>
     </table>
     <hr>
-    <!-- Le formulaire d'²utilisateur -->
+<!-- Le tableau des formations -->
+  <title>Tableau des Formations</title>
+   
+  <table border="1">
+    <thead>
+      <tr>
+        <th>N°</th>
+        <th>Formation</th>
+        <th>Durée</th>
+        <th>Niveau</th>
+        <th>Prix</th>
+        <th>Formateur</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td>HTML</td>
+        <td>2 sem</td>
+        <!-- rowspan="2" fusionne le niveau pour HTML et CSS -->
+        <td rowspan="2">Débutant</td>
+        <td>50$</td>
+        <td>Jean Dupont</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>CSS</td>
+        <td>3 sem</td>
+        <td>70$</td>
+        <td>Marie Martin</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>JavaScript</td>
+        <td>4 sem</td>
+        <td>Intermédiaire</td>
+        <td>100$</td>
+        <td>Jean Dupont</td>
+      </tr>
+      <tr>
+        <!-- colspan="6" fusionne les 6 colonnes pour afficher une note spéciale -->
+        <td colspan="6" style="text-align: center; font-style: italic; background-color: #f9f9f9;">
+          Remise de 10% accordée pour toute inscription combinée à HTML et CSS.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <table border="1">
+  <thead>
+    <tr>
+      <th>Semestre</th>
+      <th>Trimestre</th>
+      <th>Mois</th>
+      <th>Saison</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- PREMIER SEMESTRE -->
+    <tr>
+      <!-- Semestre 1 regroupe 6 mois -> rowspan="6" -->
+      <td rowspan="6">Semestre 1</td>
+      <!-- Trimestre 1 regroupe 3 mois -> rowspan="3" -->
+      <td rowspan="3">Trimestre 1</td>
+      <td>Janvier</td>
+      <td rowspan="3">Hiver</td>
+    </tr>
+    <tr>
+      <td>Février</td>
+    </tr>
+    <tr>
+      <td>Mars</td>
+    </tr>
+    <tr>
+      <!-- Trimestre 2 regroupe 3 mois -> rowspan="3" -->
+      <td rowspan="3">Trimestre 2</td>
+      <td>Avril</td>
+      <td rowspan="3">Printemps</td>
+    </tr>
+    <tr>
+      <td>Mai</td>
+    </tr>
+    <tr>
+      <td>Juin</td>
+    </tr>
+
+    <!-- SECOND SEMESTRE -->
+    <tr>
+      <!-- Semestre 2 regroupe 6 mois -> rowspan="6" -->
+      <td rowspan="6">Semestre 2</td>
+      <td rowspan="3">Trimestre 3</td>
+      <td>Juillet</td>
+      <td rowspan="3">Été</td>
+    </tr>
+    <tr>
+      <td>Août</td>
+    </tr>
+    <tr>
+      <td>Septembre</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Trimestre 4</td>
+      <td>Octobre</td>
+      <td rowspan="3">Automne</td>
+    </tr>
+    <tr>
+      <td>Novembre</td>
+    </tr>
+    <tr>
+      <td>Décembre</td>
+    </tr>
+
+    <!-- LIGNE DE CONCLUSION / BUTE DE PAGINATION -->
+    <tr>
+      <!-- colspan="4" s'étend sur les 4 colonnes du tableau -->
+      <td colspan="4" style="text-align: center;">
+        Total : 12 mois répartis sur 4 trimestres
+      </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+ <!-- Le formulaire d'²utilisateur -->
      <h2>LE FORMULAIRE</h2>
-     <select onchange="if(this.value) window.location.href = this.value;">
+     <!-- <select onchange="if(this.value) window.location.href = this.value;"> -->
+      <hr>
   </body>
 </html>
