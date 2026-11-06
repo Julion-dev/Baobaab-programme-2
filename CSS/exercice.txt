@@ -1,0 +1,12 @@
+Créez une page contenant :
+
+- Un titre avec un id=""
+- Deux paragraphes avec la meme class
+- Une liste avec plusieurs elements
+- Des champs de formulaire
+
+Stylisation avec CSS :
+
+- Utliser le selecteur Universel
+- ajouter une class pour colorer les paragraphes
+- Styliser les input avec le selecteur d'attributs

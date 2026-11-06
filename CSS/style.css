@@ -1,0 +1,21 @@
+/* Selecteur universel */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 50px; */
+}
+
+/* Selecteur d'identifiant utilisant in id */
+#titre {
+    color: red;
+}
+
+/* une classe pour colorer les paragraphes */
+.paragraphe {
+    color: blue;
+}
+
+/* selecteur d'attribut */
+
+input[type="email"], [type="text"] {
+    background-color: cyan;
+}

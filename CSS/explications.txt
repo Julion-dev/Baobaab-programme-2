@@ -1,0 +1,80 @@
+EXPLICATIONS DU CSS :
+
+CCS = Cascading Style Sheet, qui veut dire en Français Feuilles de style en cascades.
+Déf : Le CSS est un langage qui sert à mettre en forme et stylisé le contenu HTML;
+
+Il permet de modifier l'apparence d'une page web en appliquant des styles tels que : les couleurs, tailles, formes.
+
+On peut dire que le HTML construit la structure de la page tandisque le CSS la rend belle et agréable à visionner.
+
+POURQUOI UTILISER DU CSS :
+Sans CSS, une page HTML est tres simple et peu attrayante.
+Le CSS permet de donner une  belle apparence aux pages web, ameliorer l'exeperience utilisisateur.
+
+LES AVANTAGES DU CSS :
+- Séparer le contenu HTML de la presentation.
+- Reduit la repetition du code.
+- facilite la maintenance des pages web.
+- Permet de modifier rapidement l'apparence de plusieurs pages.
+- Ameliorer de créer des sites modernes et responsives.
+
+LES VERSIONS DU CSS :
+CSS1 : Permiere version publié en 1996, elle intoduit les premieres regles de mise en forme.
+
+CSS2 : Publé en 1998, ajoute de nouvelle fonctionnalité comme le, positionnement des élements.
+
+CSS3 : La version actuelle moderne du CSS.
+
+FONCTIONNALITE DU CSS :
+Le navigateur suit generalement ces etapes :
+- lit le fichier HTML.
+- Il trouve les balises html.
+- lit les regles CSS.
+- il applique les styles aux elemest HTML.
+- il affiche la page web avec sa mise en forme.
+
+3 FACONS D'INTEGRER LES REGLES CSS :
+- CSS en ligne
+- CSS interne
+- CSS externe
+
+LE SYNTAXE CSS :
+La syntaxe CSS est la maniere correcte  d'ecrire une regle CSS en fait que le navigateur puisse l'interprete et appliquer le style aux elements HTML.
+
+UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
+* Selecteur : il permet de ciblé un ou plusieurs elements HTML pour les appliquer du Style.
+- Selecteur Universel qui est (*) Permet des selections tous les elements de la page.
+- Selecteur par balise permet de selectionner tous les elements ayant les meme nom des balises HTML.
+- Selecteur par (class="") permet d'appliquer un meme style à plusieurs elements.
+- Selecteur par Identifiant (id="") permet de cibler un element unique dans les contenus HTML.
+- Selecteur groupe (h1, p, h3, .important, #principal) permet d'appliquer le meme style à plusieurs elements HTML differents.
+- Selecteur descendat (div p {color: blue;}) permet de cibler un element qui se trouve à l'interieur d'un autre element. 
+- Selecteur direct (div > p {color: red;}) cibler uniquement les elements qui sont les enfants direct.
+- Selecteur d'attributs (input[type="text"] {background-color: brown;}) permet de selection un element selon ces attributs.
+
+* Propriété : 
+- background-color: red,
+- background-image: url("image.jpg"),
+- background-repeat: no-repeat;
+- background-size: auto; (cover; prendre la taille de l'ecran)
+- background-position: center;
+- racourcis background (background: bleu url("./images \image.jpg") no-repeat center/cover;)
+- background: linear-gradient(red, yellow);
+- background: radial-gradient(red, yellow);
+- font-size: 20px;
+
+* Unités :
+- Les unites absolues sont des unites qui ont de taille fixe (le pixel).
+- Les unites relatives depend d'un autre element ou l'écran ( rem), ( em=16px).
+
+* Valeur :
+- 
+
+
+LA COULEUR :
+Déf : Une couleur permet d'ameliorer l'apparence du chose.
+
+* Les tois façon d'utliser une couleur:
+- couleur par le nom definie  (color: blue;) 
+- couleur à hexa-decimal : 0 à 9 et a à f ( #ff0000;)
+- couleur rgb : rouge, vert et bleu (rgb(0,0,255)) 
