@@ -62,11 +62,23 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
 - background: linear-gradient(red, yellow);
 - background: radial-gradient(red, yellow);
 - font-size: 20px;
+- font-family: Arial;
+- font-weight: ; et font-width: ;
+- font-style: italic;
+- text-align: center;
+- text-decoration: underline ou unset et none, pour barré le texte c'est line-trough;
+- text-transform: uppercase pour majiscule, lowercase pour minuscule et capitalize pour la premiere lettre en majiscule; (pour changer la capitalisation de texte)
+- line-height: 1.3; pour ajouter les interlignes.
+- letter-spacing: 8px; pour ajouter de l'espace entre le ligne.
+- word-spacing: 10px; entre le mot.
 
 * Unités :
 - Les unites absolues sont des unites qui ont de taille fixe (le pixel).
-- Les unites relatives depend d'un autre element ou l'écran ( rem), ( em=16px).
-
+- Les unites relatives et utliser pour le responsives depend de la taille d'un autre element(element parent) ou l'écran ( rem), ( em=16px peut changer avec l'imbrication et les composants), ( %).
+- L'unite (rem) depend de la taille(la police) de l'element racine (<html lang="fr">).
+- L'unite (vw) egalement 1% de la largueur de l'ecran (50vw egale 500px)
+- L'unite (vh) egalement 1% de la hauteur de l'ecran (50vh egale aussi 500px)
+ 
 * Valeur :
 - 
 
