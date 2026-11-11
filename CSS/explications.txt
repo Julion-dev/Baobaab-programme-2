@@ -63,14 +63,25 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
 - background: radial-gradient(red, yellow);
 - font-size: 20px;
 - font-family: Arial;
-- font-weight: ; et font-width: ;
+- font-weight: Bold; et font-width: 10px; pour la largueur et la hauteur de texte.
 - font-style: italic;
 - text-align: center;
 - text-decoration: underline ou unset et none, pour barré le texte c'est line-trough;
 - text-transform: uppercase pour majiscule, lowercase pour minuscule et capitalize pour la premiere lettre en majiscule; (pour changer la capitalisation de texte)
 - line-height: 1.3; pour ajouter les interlignes.
 - letter-spacing: 8px; pour ajouter de l'espace entre le ligne.
-- word-spacing: 10px; entre le mot.
+- word-spacing: 10px; pour ajouter de l'espace entre le mot.
+- text-Shadow: 10px(horizontal) 20px(verticlal) 5px(floue) red; pour ajouter une ombre sur le texte.
+- Propriété racourcis : font: italic Blod 30px arial;
+                        border: 1px solid blue; pour entourer avec un ligne un texte, une image ou une div.
+- border-width: 5px; mais aussi : 12px(Haut) 15px(Droite) 10px(Bas) 13px(Gauche);
+- border-style: solid(ligne continue) ou dashed(ligne en trait) ou double(double ligne);
+- border-color: red; pour les couleurs des bordures mais si il ya border-style: none; il ne peut accepter.
+- border-right: 8px dashed red; ou  border-left: 5px double green; ou border-bottom: 2px solid blue; ou border-top: 4px solid yellow; 
+- border-raduis: 20px; pour arrondir les coins.
+- border-top-left-raduis: 20px; pour arrondir le coin specifié et autres.
+- outline: 5px solid blue; il arrondir à l'exterieur de l'element.
+- box-Shadow: 5px(x: horizontal) 5px(y: verticlal) 2px(floue) red; permet d'ajouter une ombre autour d'un element.
 
 * Unités :
 - Les unites absolues sont des unites qui ont de taille fixe (le pixel).
@@ -78,6 +89,7 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
 - L'unite (rem) depend de la taille(la police) de l'element racine (<html lang="fr">).
 - L'unite (vw) egalement 1% de la largueur de l'ecran (50vw egale 500px)
 - L'unite (vh) egalement 1% de la hauteur de l'ecran (50vh egale aussi 500px)
+
  
 * Valeur :
 - 
