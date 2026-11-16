@@ -82,13 +82,33 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
 - border-top-left-raduis: 20px; pour arrondir le coin specifié et autres.
 - outline: 5px solid blue; il arrondir à l'exterieur de l'element.
 - box-Shadow: 5px(x: horizontal) 5px(y: verticlal) 2px(floue) red; permet d'ajouter une ombre autour d'un element.
+* Chaque element est composer des margin: espace exterieur entre un élément et les autres éléments; border: ; padding: espace interieur entre le contenu et les bordures, content: c'est lui le contenu.
+- padding(recommande d'utiliser le pixel): 20px(en haut et en bas) 40px(en gauche et en droite); si c'est deux valeurs.
+            20px(en haut) 40px(gauche et droite) 30px(en bas);   si c'est trois valeurs.
+            20px(en haut) 40px(en droite) 30px(en bas) 10px(en gauche); si c'est quatre valeurs.
+- margin(recommande d'utiliser le pixel) : 20px(en haut et en bas) 40px(en gauche et en droite); si c'est deux valeurs.
+            20px(en haut) 40px(gauche et droite) 30px(en bas);   si c'est trois valeurs.
+            20px(en haut) 40px(en droite) 30px(en bas) 10px(en gauche); si c'est quatre valeurs.
+            margin: auto; pour centre l'element.
+- box-sizing : border-box; souvent le navigateur donne au contenu certaines propriété par defaut donc il est recommande de le mettre dans un selecteur universel (* {box-sizing: border-box;})
+* les dimensions : - width, height, max-width, max-height.
+- width: 50%(pour la responsive); permet de modifier ou regler la largeur d'un element.
+        min-width: 300px; donc l'element ne peut avoir moins de 300px par rapport à l'écran et toujours en pixel.
+        max-width: 1250px donc l'element ne peut pas depasser le 1250px par rapport à l'écran et toujours en pixel.
+- height: 50%(pour la responsive); permet de modifier ou regler la hauteur d'un element.
+        min-height: 300px; donc l'element ne peut avoir moins de 300px par rapport à l'écran et toujours en pixel.
+        max-height: 1250px; donc l'element ne peut pas depasser le 1250px par rapport à l'écran et toujours en pixel.
+- overflow: visible; il peut etre que le contenu qui depasser peut etre un div.
+            hidden; donc le contenu qui depasse doit etre caché.
+            scroll: permet à scroller pour voir le contenu qui depasse.
+            auto; le navigateur lui meme va ajouter la barre de scroll pour s'adapter au contenu qui depasse.
 
 * Unités :
 - Les unites absolues sont des unites qui ont de taille fixe (le pixel).
 - Les unites relatives et utliser pour le responsives depend de la taille d'un autre element(element parent) ou l'écran ( rem), ( em=16px peut changer avec l'imbrication et les composants), ( %).
 - L'unite (rem) depend de la taille(la police) de l'element racine (<html lang="fr">).
-- L'unite (vw) egalement 1% de la largueur de l'ecran (50vw egale 500px)
-- L'unite (vh) egalement 1% de la hauteur de l'ecran (50vh egale aussi 500px)
+- L'unite (vw) egalement 1% de la largueur de l'ecran (50vw egale 500px) il est recommande de l'utilser au lieu de %.
+- L'unite (vh) egalement 1% de la hauteur de l'ecran (50vh egale aussi 500px) il est recommande de l'utilser au lieu de %.
 
  
 * Valeur :

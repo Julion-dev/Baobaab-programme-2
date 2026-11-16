@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    width: 90%;
+    max-width: 1500px;
+    min-height: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
