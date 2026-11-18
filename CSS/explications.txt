@@ -109,6 +109,17 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
 Raccourcis: list-style: decimal inside url("./images/afrixglobal.png");
 - Pour styliser un tableau : table, th, td{ border: 1px solid black} est c'est recommande avec CSS pas dans HTML.
 (Et pour enlever les aspacement du bordure il faut border-collaspe: collaspe;)
+- Et pour rendre un tableau responsive il ya un propriété {overflow: auto;} donc afficher une barre de defiliment.
+-- Display: permet de definier la mainere dont un element HTML se comporter et s'afficher dans la page.
+- Ces valeurs : block prendra toute la largeur disponible sur l'ecran accepter le width, inline n'accepter pas le width,flex, inline-block accepter le width, height et le margin il est utliser pour le responsive, Display: none; cache les elements.
+- position : static, relative c'est pour rien faire et accepetr left,top,right, bottom; absolute pour mettre tous les elements en absolue donc au meme endroit comme se superposer entre eux, fixed reste fixé par rapport à la fenetre du navigateur, sticky il permet à un element de se comporter normale et puis de rester fixe l'orsque on eteint une position pendant le defilement de la page et il est conseiller de l'applique pour une barre de menu.
+- z-index: 1; c'est pour controler l'element qui va etre au dessus de l'autre.
+-- flex-box: ; permet de gerer la disposition des element à l'interieur d'un container.
+- flex-direction: row, column; pour la direction des elements.
+- permet d'organiser les elements sur l'axe principal (y=verticlal).
+- align-items: center; permet de centrer les elments verticlalement.
+- flex-wrap: wrap;
+- gap: 10px; pour ajouter entre les elements en ligne un espacement et uliser souvent avec display: inline; et display: flex; 
 
 * Unités :
 - Les unites absolues sont des unites qui ont de taille fixe (le pixel).

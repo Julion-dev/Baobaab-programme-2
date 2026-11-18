@@ -30,3 +30,47 @@ td:hover {
     text-align: center;
 }
 
+/* .table-container {
+    overflow: auto;
+} */
+
+.parent {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.enfant {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start; seulemt garder les elements sur l'axe principal */
+    /* justify-content: center; */
+    /* justify-content: flex-end;
+     justify-content: space-between; pour espaces les elements */
+     /* justify-content: space-around; */
+     /* justify-content: space-evenly; */
+     /* align-items: center;
+     min-height: 100vh;
+     flex-wrap: wrap; */
+     gap: 40px;
+}
