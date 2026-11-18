@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+th {
+    border: 1px solid black;
+    text-align: left;
+    font-size: 18px;
+    background-color: rgb(29, 165, 223);
+}
+
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th:hover {
+   
+    color: azure;
+    text-align: center;
+}
+
+td:hover {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+

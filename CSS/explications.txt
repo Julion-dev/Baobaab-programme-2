@@ -90,7 +90,7 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
             20px(en haut) 40px(gauche et droite) 30px(en bas);   si c'est trois valeurs.
             20px(en haut) 40px(en droite) 30px(en bas) 10px(en gauche); si c'est quatre valeurs.
             margin: auto; pour centre l'element.
-- box-sizing : border-box; souvent le navigateur donne au contenu certaines propriété par defaut donc il est recommande de le mettre dans un selecteur universel (* {box-sizing: border-box;})
+--- box-sizing : border-box; souvent le navigateur donne au contenu certaines propriété par defaut donc il est recommande de le mettre dans un selecteur universel (* {box-sizing: border-box;})
 * les dimensions : - width, height, max-width, max-height.
 - width: 50%(pour la responsive); permet de modifier ou regler la largeur d'un element.
         min-width: 300px; donc l'element ne peut avoir moins de 300px par rapport à l'écran et toujours en pixel.
@@ -102,6 +102,13 @@ UNE REGLE CSS EST COMPOSER DES TROIS ELEMENTS PRINCIPAUX :
             hidden; donc le contenu qui depasse doit etre caché.
             scroll: permet à scroller pour voir le contenu qui depasse.
             auto; le navigateur lui meme va ajouter la barre de scroll pour s'adapter au contenu qui depasse.
+- list-style-type: cirle, square, none; pour la liste non-ordonnée.
+                        decimal, upper-; pour la liste ordonnée.
+- list-style-position: inside, outside; pour la position de puce.
+- list-style-image: url("./images/afrixglobal.png"); mais pas souvent utliser.
+Raccourcis: list-style: decimal inside url("./images/afrixglobal.png");
+- Pour styliser un tableau : table, th, td{ border: 1px solid black} est c'est recommande avec CSS pas dans HTML.
+(Et pour enlever les aspacement du bordure il faut border-collaspe: collaspe;)
 
 * Unités :
 - Les unites absolues sont des unites qui ont de taille fixe (le pixel).
